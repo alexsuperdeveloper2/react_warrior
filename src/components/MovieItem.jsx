@@ -54,6 +54,7 @@ class MovieItem extends React.Component {
               )}
           </div>
           <button
+            className='btn btn-primary'
             type="button"
             onClick={() => {
               deleteMovie(data);
